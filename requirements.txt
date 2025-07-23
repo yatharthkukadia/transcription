@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy
+pandas
+librosa
+scipy
+matplotlib
+tqdm
+jiwer
+pyctcdecode
+transformers
+sentencepiece
+protobuf==3.20.*  # To avoid potential compatibility issues with torchaudio or pyctcdecode
